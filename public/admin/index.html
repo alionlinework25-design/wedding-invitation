@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Invitation Editor</title>
+  <link rel="stylesheet" href="/assets/admin.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div id="login" class="login">
+    <form id="loginForm" class="login-card">
+      <div class="logo">✦</div>
+      <h1>Invitation Editor</h1>
+      <p class="muted">Enter your admin password to edit the invitation.</p>
+      <input id="pw" type="password" placeholder="Password" autocomplete="current-password" required>
+      <button class="btn primary wide" type="submit">Log in</button>
+      <p id="loginMsg" class="msg"></p>
+    </form>
+  </div>
+
+  <!-- EDITOR -->
+  <div id="app" class="app" hidden>
+    <header class="topbar">
+      <div class="brand">✦ <span>Invitation Editor</span></div>
+      <div class="actions">
+        <span id="status" class="status"></span>
+        <a class="btn" href="/" target="_blank" rel="noopener">View live site</a>
+        <button id="previewBtn" class="btn" type="button">Preview changes</button>
+        <button id="saveBtn" class="btn primary" type="button">Save changes</button>
+      </div>
+    </header>
+
+    <div id="offlineNote" class="note-bar" hidden>
+      You are editing without the online saving service (for example on your own computer).
+      “Save changes” will download a new <b>content.json</b> file — put it inside the <b>public</b> folder, replacing the old one.
+    </div>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="sections">Sections</button>
+      <button class="tab" data-tab="settings">Settings, colours &amp; music</button>
+      <button class="tab" data-tab="guests">Guest responses</button>
+      <button class="tab" data-tab="backup">Backup</button>
+    </nav>
+
+    <main class="wrap">
+      <section id="tab-sections" class="pane">
+        <div class="pane-head">
+          <div>
+            <h2>Sections of your invitation</h2>
+            <p class="muted">Click a section to open it. Use the switch to show or hide it, and the arrows to move it up or down.</p>
+          </div>
+          <button id="addSectionBtn" class="btn" type="button">+ Add section</button>
+        </div>
+        <div id="sections"></div>
+      </section>
+
+      <section id="tab-settings" class="pane" hidden>
+        <div class="pane-head"><div><h2>Settings</h2><p class="muted">Page title, colours, background music and the countdown time.</p></div></div>
+        <div id="settings" class="box"></div>
+      </section>
+
+      <section id="tab-guests" class="pane" hidden>
+        <div class="pane-head">
+          <div><h2>Guest responses</h2><p class="muted">Everyone who filled the response form on the invitation.</p></div>
+          <div class="row-actions">
+            <button id="refreshGuests" class="btn" type="button">Refresh</button>
+            <button id="csvGuests" class="btn" type="button">Download as Excel (CSV)</button>
+          </div>
+        </div>
+        <div id="guestStats" class="stats"></div>
+        <div id="guests" class="box"></div>
+      </section>
+
+      <section id="tab-backup" class="pane" hidden>
+        <div class="pane-head"><div><h2>Backup</h2><p class="muted">Keep a copy of your invitation, or bring an old copy back.</p></div></div>
+        <div class="box backup">
+          <div class="b-item"><div><b>Download a copy</b><p class="muted">Saves all your text and settings as one file on your device.</p></div><button id="dlBackup" class="btn" type="button">Download</button></div>
+          <div class="b-item"><div><b>Load a copy</b><p class="muted">Opens a file you downloaded before. Press “Save changes” afterwards to publish it.</p></div><label class="btn">Choose file<input id="ulBackup" type="file" accept=".json,application/json" hidden></label></div>
+          <div class="b-item danger"><div><b>Reset to original</b><p class="muted">Removes all your saved changes and goes back to the original invitation text.</p></div><button id="resetBtn" class="btn danger" type="button">Reset</button></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Add section dialog -->
+  <dialog id="addDialog" class="dialog">
+    <h3>Add a section</h3>
+    <p class="muted">Choose what kind of section to add. It will be added at the end — move it with the arrows.</p>
+    <div id="addChoices" class="choices"></div>
+    <div class="dialog-foot"><button class="btn" type="button" data-close>Cancel</button></div>
+  </dialog>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="/assets/admin.js"></script>
+</body>
+</html>

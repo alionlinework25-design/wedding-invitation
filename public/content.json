@@ -1,0 +1,231 @@
+{
+  "settings": {
+    "pageTitle": "Sandesh weds Shagun | Wedding Invitation",
+    "shareDescription": "You are cordially invited to the wedding celebrations of Sandesh & Shagun, 1st & 2nd December 2026, New Delhi.",
+    "goldColor": "#a9813f",
+    "maroonColor": "#5e1a22",
+    "backgroundColor": "#f3eadb",
+    "musicFile": "",
+    "musicCredit": "",
+    "fallingPetals": true,
+    "sideBorders": true,
+    "countdownTo": "2026-12-02T09:00"
+  },
+  "sections": [
+    {
+      "type": "envelope",
+      "show": true,
+      "topLine": "|| श्री गणेशाय नमः ||",
+      "invitedLine": "You're cordially invited",
+      "subLine": "The Wedding Celebration of",
+      "names": "Sandesh & Shagun",
+      "dates": "1st & 2nd December, 2026",
+      "sealText": "S&S",
+      "buttonText": "Open Invitation",
+      "hint": "tap the seal to begin"
+    },
+    {
+      "type": "blessing",
+      "show": true,
+      "showToran": true,
+      "ganeshaImage": "",
+      "shloka": [
+        "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभः।",
+        "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥"
+      ],
+      "title": "R.S.V.P.",
+      "names": [
+        "Gajanand, Mahavir Prasad, Mataden, Mohan Lal, Dhannamal",
+        "Biharimal, Ram Singh, Lakshmi Narayan, Ramjilal, Kailash, Pyarelal",
+        "Mahendra, Samdar, Sunil, Dilip, Vijay, Rahul, Kapil, Ajay, Ashish"
+      ]
+    },
+    {
+      "type": "family",
+      "show": true,
+      "groups": [
+        {
+          "heading": "With best compliments from",
+          "names": [
+            "All Soni Family"
+          ]
+        },
+        {
+          "heading": "Nanihal Paksh",
+          "names": [
+            "Late Mrs. & Mr. Shivlal Soni",
+            "Mrs. & Late Mr. Jaykishan Soni",
+            "Mrs. & Mr. Tarachand Soni",
+            "Daksh & Gehna"
+          ]
+        },
+        {
+          "heading": "Welcome Hosts",
+          "names": [
+            "Mrs. Shilpi & Mr. Kamal Soni"
+          ]
+        }
+      ],
+      "noteHeading": "A loving note from",
+      "noteFrom": "Jeevika & Kartik",
+      "noteText": "\"Our beloved Mamu is beginning a beautiful new journey! Join us in celebrating this special occasion and make our happiness even more memorable with your presence.\""
+    },
+    {
+      "type": "couple",
+      "show": true,
+      "showGanesha": true,
+      "hosts": "Mrs. Manju & Mr. Ashok Kumar Soni",
+      "inviteLine": "cordially invite you to celebrate\nthe wedding of their son",
+      "groom": "Sandesh",
+      "groomDetail": "(Grandson of Late Mrs. Radha Devi & Late Mr. Prahlad Rai Soni)",
+      "showRings": true,
+      "joinWord": "with",
+      "bride": "Shagun",
+      "brideDetail": "(Daughter of Mrs. Sushila & Mr. Rakesh Kumar Mishra)"
+    },
+    {
+      "type": "ribbon",
+      "show": true,
+      "items": [
+        "|| श्री गणेशाय नमः ||",
+        "1st & 2nd December 2026",
+        "॥ शुभ विवाह ॥",
+        "Sandesh Weds Shagun"
+      ]
+    },
+    {
+      "type": "day",
+      "show": true,
+      "layout": "cards",
+      "shloka": [],
+      "intro": "",
+      "weekday": "Tuesday",
+      "date": "1st December, 2026",
+      "showCountdown": false,
+      "countdownLabel": "",
+      "dayLabel": "",
+      "events": [
+        {
+          "icon": "rings",
+          "iconImage": "",
+          "name": "Engagement & Tilak",
+          "details": "Begins at 11:00 AM",
+          "venue": "Green Lounge North Banquet",
+          "address": "C-93, Wazirpur, Ring Road,\nDelhi-110052",
+          "mapLink": "https://www.google.com/maps/search/?api=1&query=Green+Lounge+North+Banquet+C-93+Wazirpur+Ring+Road+Delhi+110052"
+        },
+        {
+          "icon": "mehendi",
+          "iconImage": "",
+          "name": "Mehendi & Sangeet",
+          "details": "Begins at 7:00 PM",
+          "venue": "Agarwal Bhawan",
+          "address": "13A, Phase 2, Model Town,\nNew Delhi-110033",
+          "mapLink": "https://www.google.com/maps/search/?api=1&query=Agarwal+Bhawan+13A+Phase+2+Model+Town+New+Delhi+110033"
+        }
+      ]
+    },
+    {
+      "type": "day",
+      "show": true,
+      "layout": "timeline",
+      "shloka": [
+        "विघ्न हरण मंगल करण गौरी सुत गणराज।",
+        "प्रथम निमंत्रण आपको पूरन किज्यौ काज॥"
+      ],
+      "intro": "With the blessings of the Almighty,\nwe look forward to your gracious presence on",
+      "weekday": "Wednesday",
+      "date": "2nd December, 2026",
+      "showCountdown": true,
+      "countdownLabel": "Counting down to the big day",
+      "dayLabel": "The Wedding Day",
+      "events": [
+        {
+          "icon": "haldi",
+          "iconImage": "",
+          "name": "Haldi",
+          "details": "Begins at 9:00 AM",
+          "venue": "",
+          "address": "",
+          "mapLink": ""
+        },
+        {
+          "icon": "chak-bhat",
+          "iconImage": "",
+          "name": "Chak & Bhat",
+          "details": "Begins at 11:00 AM",
+          "venue": "",
+          "address": "",
+          "mapLink": ""
+        },
+        {
+          "icon": "ghudchadi",
+          "iconImage": "",
+          "name": "Ghudchadi",
+          "details": "Begins at 5:00 PM",
+          "venue": "",
+          "address": "",
+          "mapLink": ""
+        },
+        {
+          "icon": "baraat",
+          "iconImage": "",
+          "name": "Baraat",
+          "details": "Departs from Agarwal Bhawan\nAt 6:30 PM\nTowards Palm Green",
+          "venue": "",
+          "address": "",
+          "mapLink": ""
+        }
+      ]
+    },
+    {
+      "type": "venues",
+      "show": true,
+      "title": "Where the celebration unfolds",
+      "venues": [
+        {
+          "heading": "Baraat Assembly Venue",
+          "name": "Agarwal Bhawan",
+          "address": "13A, Phase 2, Model Town,\nNew Delhi-110033",
+          "buttonText": "View Baraat Location",
+          "mapLink": "https://www.google.com/maps/search/?api=1&query=Agarwal+Bhawan+13A+Phase+2+Model+Town+New+Delhi+110033"
+        },
+        {
+          "heading": "Wedding Venue",
+          "name": "Palm Green Hotel & Resort",
+          "address": "Pool Lawn\n21/30, GT Karnal Road,\nBakoli, New Delhi-110036",
+          "buttonText": "View Wedding Venue",
+          "mapLink": "https://www.google.com/maps/search/?api=1&query=Palm+Green+Hotel+and+Resort+GT+Karnal+Road+Bakoli+New+Delhi+110036"
+        }
+      ]
+    },
+    {
+      "type": "rsvp",
+      "show": true,
+      "heading": "Kindly respond",
+      "title": "Will you join us?",
+      "subtitle": "Please let us know if you can make it, and leave your blessings for the couple.",
+      "buttonText": "Send my response",
+      "thankYou": "Thank you! Your response and blessings have reached the family.",
+      "whatsappNumber": "",
+      "whatsappText": "Or reply on WhatsApp"
+    },
+    {
+      "type": "closing",
+      "show": true,
+      "showToran": true,
+      "showGanesha": true,
+      "heading": "Wedding Invitation",
+      "date": "Wednesday, 2nd December, 2026",
+      "groom": "Sandesh",
+      "joinWord": "weds",
+      "bride": "Shagun",
+      "fromHeading": "A cordial invitation from",
+      "from": "Mrs. Manju & Mr. Ashok Kumar Soni",
+      "quote": "\"We would be delighted to have your gracious presence and blessings as we celebrate this beautiful beginning.\"",
+      "showLotus": true,
+      "showPeacocks": true,
+      "peacockImage": ""
+    }
+  ]
+}
